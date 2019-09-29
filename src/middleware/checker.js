@@ -1,3 +1,6 @@
+import { ADD_GOAL } from "../actions/goals";
+import { ADD_TODO } from "../actions/todos";
+
 export default function checker(store) {
   return function (next) {
     return function (action) {
